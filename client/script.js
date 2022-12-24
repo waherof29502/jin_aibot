@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //fetch data from server
-  const response = await fetch('https://aibot.onrender.com', {
+  const response = await fetch('http://localhost:5500', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
